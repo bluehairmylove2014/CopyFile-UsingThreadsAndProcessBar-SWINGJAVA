@@ -1,3 +1,11 @@
+/*
+ * Copyright © 2022 by Phuc Dat
+ * HCMUS Student 2022 Information
+ *      Fullname: Phan Phuc Dat
+ *      ID: 20127463
+ *      Contact: sunrisecontinent.company@gmail.com
+ */
+
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -144,6 +152,9 @@ public class App implements ActionListener {
         // Footer
         JPanel fter = new JPanel();
         fter.setLayout(new BoxLayout(fter, BoxLayout.Y_AXIS));
+        JLabel copyright = new JLabel("<html><p style=\"font-family:Verdana;font-size:8px;\">Copyright © 2022 by Phan Phuc Dat</p></html>");
+        copyright.setHorizontalAlignment(JLabel.CENTER);
+        fter.add(copyright);
         
 
         // ------------ Create main panels ------------
